@@ -206,7 +206,8 @@ REST_FRAMEWORK = {
 }
 
 # Movie Recommendation Model Configuration
-MODEL_DIR = os.environ.get('MODEL_DIR', os.path.join(BASE_DIR, 'training/models_fast'))
+# Default to the prebuilt model artifacts in BASE_DIR/models_fast
+MODEL_DIR = os.environ.get('MODEL_DIR', os.path.join(BASE_DIR, 'models_fast'))
 
 # Create models directory if it doesn't exist
 Path(MODEL_DIR).mkdir(parents=True, exist_ok=True)
