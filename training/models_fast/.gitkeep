@@ -1,0 +1,2 @@
+# This file ensures the models_fast directory is tracked by Git
+# Actual model files are ignored via patterns in .gitignore

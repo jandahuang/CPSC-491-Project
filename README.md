@@ -31,7 +31,18 @@ pip install --upgrade pip
 
 # Install project dependencies
 pip install -r requirements.txt
+
+
+pip install kagglehub
+
+pip install nltk
+
+# run the training set, this a simpfly version, takes about 2 min
+.\venv\Scripts\python.exe training\train_fast_dev.py
 ```
+
+
+
 
 **Expected output**: All packages installed successfully without errors.
 
