@@ -3,7 +3,7 @@ CPSC 491 Movie Selector System.
 
 ## 💻 Installation
 
-### Step 1: download the zip file to desire location then cd to that location. 
+### Step 1: download the zip file to desire location then cd to that location. Or Clone the repository and cd to taht location. 
 
 
 
@@ -74,6 +74,7 @@ Open your browser and navigate to:
 ```
 http://localhost:8000
 ```
+
 
 
 
