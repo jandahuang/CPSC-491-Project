@@ -41,7 +41,8 @@ pip install nltk
 .\venv\Scripts\python.exe training\train_fast_dev.py
 ```
 
-
+# in addition, you will needs to install the dataset itself and include into the project folder. 
+https://drive.google.com/file/d/19HK_CQAZ3Yd6InNU3YQWgjZG1XpnvTax/view?usp=sharing
 
 
 **Expected output**: All packages installed successfully without errors.
